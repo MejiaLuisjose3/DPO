@@ -22,6 +22,7 @@ namespace PatronesDeDiseno.EjerciciosArray
             return data.FirstOrDefault(x => x.NoArticulos == (data.Max(c => c.NoArticulos))).IdGrupo;
         }
 
+
         public static int[] SortArrayByParity(int[] A)
         {
             var data = new List<int>();
