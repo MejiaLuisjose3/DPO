@@ -15,5 +15,6 @@ namespace PatronesDeDiseno.Annotation
 
         [ProbandoSuma("valorUno", "valorDos")]
         public int resultado { get; set; }
+
     }
 }
