@@ -20,6 +20,8 @@ namespace PatronesDeDiseno.EjerciciosArray
                         }).ToList();
 
             return data.FirstOrDefault(x => x.NoArticulos == (data.Max(c => c.NoArticulos))).IdGrupo;
+
+            //subir
         }
 
 
